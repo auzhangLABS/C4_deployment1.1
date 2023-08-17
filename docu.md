@@ -16,3 +16,7 @@
 4. I decided to look into the log to see what when wrong. I notice that I was unable to find a module called application. Here, I decide to go into this deployment to find the issue. Upon investigating, I find out that the appication.py file was accidentally spelled wrong. Once I fixed that, I rerun it in Jenkins and then upload it to Elastic Beanstalk. Then, it was successful<br>
 
 ![image](https://github.com/auzhangLABS/C4_deployment1.1/assets/138344000/cdc7db25-ab83-4636-bfe7-75f8bf3a96bb)
+
+Here is the diagram that shows my process. <br>
+
+![image](https://github.com/auzhangLABS/C4_deployment1.1/assets/138344000/ed80a70e-87a2-49bf-b004-50ba74e9f576)
