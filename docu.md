@@ -1,6 +1,6 @@
 # Project Documentation for Deployment 1.1
 
-##Purpose for this deployment. 
+## Purpose for this deployment. 
 The Purpose of this Deployment was to successfully upload the application to Elastic Beanstalk and Jenkins. However, upon uploading to Elastic Beanstalk, we notice that we go an error. How are the steps I took to diagnose this problem 
 
 1. First, I uploaded it into Jenkins to make sure that the build and test phase was okay to run. <br>
@@ -23,5 +23,5 @@ Here is the diagram that shows my process. <br>
 
 ![image](https://github.com/auzhangLABS/C4_deployment1.1/assets/138344000/ed80a70e-87a2-49bf-b004-50ba74e9f576)
 
-##Key Learning
+## Key Learning
 A major learning of this deployment was that Jenkin wasn't checking the naming conventions of some of the files within the application. For the future, I could've Jenkis test for that factor as well. Additionally, I learn that Amazon Elastic Beanstalk was looking for a specific application name for the files, therefore It kept giving me Degarded health. Upon finding this out, I was able to rename and successfully upload it within Amazon Elastic Beanstalk. 
